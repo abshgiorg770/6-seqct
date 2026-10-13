@@ -1,0 +1,4 @@
+nav{width: 800px;height: 100px;background-color: blueviolet;}
+ul{list-style: none;}
+a{text-decoration: none;background-color: chartreuse;}
+li{float: left;padding-top:30px;padding-left: 30px;}

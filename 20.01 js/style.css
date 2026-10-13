@@ -1,0 +1,16 @@
+getAlert{
+    width: 260px;
+    height: 80px;
+    box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.822);
+    border: none;
+    margin: 200px auto;
+    font-size: 30px;
+    display: block;
+    font-style: oblique;
+    font-display: fallback;
+    font-variant: small-caps;
+}
+getLog{
+    box-shadow: 8px 7px 6px rgb(0, 255, 21);
+    cursor:pointer;
+    transition: all 0.5s ease;}

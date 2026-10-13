@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form action="formdata.php" method="POST" name="form1">
+        <p><label>სახელი(მაქს 10 სიმბოლო):<input type="text"
+        name="name" size="30" maxlenght="10"></label></p>
+        <p><label>პაროლი(მაქს 10 სიმბოლო):<input type="text"
+        name="name" size="30" maxlenght="10"></label></p>
+        <p><label>მდედრობითი:<input type="radio" name="mf" value="Male">
+        </label>
+    <label>მამრობითი:<input type="radio" name="mf" value="Female" checked>
+    </label><label>non-binary:<input type="radio" name="mf" value="Male">
+        </label>
+    <label>ირაკლი ნარმანია:<input type="radio" name="mf" value="Male">
+        </label></p>
+    </form>
+    <form action="action.php" method="GET" enctype="application/x-www-form urlencoded" name="prog">
+    <select>
+        <optgroup label="აღმოსავლეთ საქართველო:">
+        <option value="tbilisi">თბილისი</option>
+        <option value="mcxeta">მცხეთა</option>
+        <option value="gori">გორი</option>
+        <option value="dasavlet saqartvelo">დასავლეთ საქართველო</option>
+        <option value="qutaisi">ქუთაისი</option>
+        <option value="zugdidi">ზუგდიდი</option>
+        <option value="foti">ფოთი</option>
+        <option value="name">ირაკლი ნარმანია</option>
+        </optgroup></select></form>
+        <form action="action.php" method="GET" enctype="application/x-www-form urlencoded" name="prog">
+        <select value=3>
+        <option value="tbilisi">თბილისი</option>
+        <option value="mcxeta">მცხეთა</option>
+        <option value="gori">გორი</option>
+        <option value="name">ირაკლი ნარმანია</option>
+        </select></form>
+        <form action="formdata.php" method="POST" name="form1">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;giorgi</p>
+            <p>რომელი მომწრალი მოგწონს:</p>
+            <select name:"actor" size="4">
+                <option value="vaxtang">ვახტანგ ცობეხია</option>
+                <option value="iraklinarmania">ირაკლი ნარმანია</option>
+                <option value="jon">ჯონ ლენონი</option>
+                <option value="nirvana">ნირვანა</option>
+                <option value="fredy mercury">ფრედი მერკური</option>
+                <option value="nani">ნანი ბრეგვაძე</option>
+                <option value="eter">ეთერ კაკულია</option>
+            </select><p>კომენტარი:</p>
+            <textarea rows="4" cols="20" name="comments"></textarea><br><br>
+            <input type="submit" value="OK"></form>
+            <form><label for="favcolor">აირჩიეთ ფერი</label>
+            <input type="color" id="favcolor" /><br><br>
+            <label for="favcolor">აირჩიეთ ფერი</label>
+            <input type="color" list="colors" id="favourite" name="favcolor" />
+            <datalist id="colors">
+                <option value="0000FF" label="blue">
+                <option value="0000FF" label="blue">
+                <option value="0000FF" label="blue">
+            </datalist>
+            </form>
+</body>
+</html>

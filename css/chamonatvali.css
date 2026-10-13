@@ -1,0 +1,7 @@
+body{margin:0}
+#div1{background-color: aqua;}
+#div2{background-color: blue;width: 300px;}
+span{background-color: brown; width:500px;}
+.div3{display:inline-block;width: 150px;background-color: crimson;}
+.div4{display:inline-block;width: 150px;background-color: rgb(220, 83, 20);}
+.div5{display:inline-block;width: 150px;background-color: rgb(207, 220, 20);}
